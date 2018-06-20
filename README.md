@@ -10,3 +10,10 @@
 * go build
 * ./zzz
 
+## Docker Build
+* git clone https://github.com/shogonir/zzz.git
+* cd zzz
+* go build
+* docker build -t zzz:latest .
+* docker run -d -p 7999:7999 zzz:latest
+
